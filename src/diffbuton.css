@@ -1,0 +1,16 @@
+.diffbuton {
+  background-color: rgba(0, 0, 255, 0);
+  border-color: transparent;
+  margin-right: 3%;
+  align-self: right;
+  font-size: 150%;
+  margin-top: 2%;
+  margin-left: 5%;
+  border-radius: 8px;
+}
+
+.diffbuton:hover {
+  background-color: black;
+  color: white;
+  transition: all 200ms linear;
+}
