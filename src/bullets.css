@@ -1,0 +1,18 @@
+.bullet {
+  width: 40px;
+  height: 4px;
+  margin: 3px 6px;
+  display: inline-block;
+  border-radius: 4px;
+  opacity: 1;
+  background: #000000;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.bullet:active {
+  opacity: 100;
+  background: #79c142;
+  width: 40px;
+  height: 4px;
+}
