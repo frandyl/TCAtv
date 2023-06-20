@@ -5,13 +5,13 @@
   margin-right: 3%;
   align-self: left;
   font-size: 120%;
-  margin-top: 2%;
+  margin-top: 1%;
+  margin-bottom: 1%;
   border-radius: 4px;
 }
 
 .buttonstyle:hover {
   background-color: black;
   color: white;
-  max-height: 100px;
   transition: all 200ms linear;
 }
