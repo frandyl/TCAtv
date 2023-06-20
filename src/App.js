@@ -2,6 +2,7 @@ import "./App.css";
 import "./button.css";
 import "./diffbuton.css";
 import ImageSlider from "./ImageSlider.js";
+import ImageGrid from "./ImageGrid";
 import tca from "./tca.png";
 
 function App() {
@@ -62,9 +63,13 @@ function App() {
         <button className="buttonstyle">Travel</button>
         <button className="buttonstyle">Culture</button>
       </div>
+
       <div style={containerStyles}>
         <ImageSlider slides={slides} parentWidth={2000} />
       </div>
+      <h2>HEADLINES</h2>
+      <ImageGrid />
+      <h2>News</h2>
     </>
   );
 }
