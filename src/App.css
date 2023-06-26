@@ -1,3 +1,17 @@
 .App {
   background-color: white;
+  margin-left: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-right: auto;
+  width: 70%;
+  height: 1;
+}
+
+.App > button:first-child {
+  margin-left: 1%;
+}
+
+.App > div {
+  margin-right: 50px;
 }

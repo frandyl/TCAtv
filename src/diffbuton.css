@@ -1,12 +1,8 @@
 .diffbuton {
   background-color: rgba(0, 0, 255, 0);
   border-color: transparent;
-  margin-right: 3%;
-  align-self: right;
   font-size: 120%;
-  margin-top: 1%;
-  margin-bottom: 1%;
-  margin-left: 5%;
+  margin-left: auto;
   border-radius: 8px;
 }
 

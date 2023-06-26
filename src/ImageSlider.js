@@ -124,6 +124,7 @@ const ImageSlider = ({ slides }) => {
           }}
         ></div>
         <h1
+          class="font-regular text-5xl "
           style={{
             position: "absolute",
             bottom: "20px",

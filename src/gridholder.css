@@ -1,0 +1,8 @@
+.gridholder {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  border-color: black;
+  border: 5px solid;
+  margin-left: 13%;
+}
