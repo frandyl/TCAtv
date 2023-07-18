@@ -8,7 +8,10 @@ const ImageGrid = () => {
         src="./Grid/grid1.jpg"
       ></img>
 
-      <img src="./Grid/grid2.png"></img>
+      <img
+        class="transform-0.3s hover:scale-0.9 animate-ease-in"
+        src="./Grid/grid2.png"
+      ></img>
 
       <img src="./Grid/grid3.jpg"></img>
 

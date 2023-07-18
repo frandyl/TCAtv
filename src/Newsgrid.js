@@ -9,7 +9,7 @@ const Newsgrid = ({ title, imageUrl, body }) => {
       </div>
       <div className="newscontent">
         <div className="newstitle">
-          <h3>{title}</h3>
+          <h3 class="font-bold">{title}</h3>
         </div>
         <div className="newsbody">
           <p>{body}</p>

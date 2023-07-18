@@ -7,6 +7,7 @@ import "./containerb.css";
 import "./gridholder.css";
 import ImageGrid from "./ImageGrid";
 import tca from "./tca.png";
+import Vidcar from "./Vidcar.js";
 
 function App() {
   const slides = [
@@ -96,6 +97,63 @@ function App() {
           imageUrl="http://localhost:3000/image-1.jpg"
           body="This wil be the text that will be shown under the newscards find a way to not make them change heights after creating them"
         />
+      </div>
+
+      <h2 class="font-regular text-5xl ml-60">SPORTS</h2>
+      <div className="gridholder">
+        <Newsgrid
+          title="News Title"
+          imageUrl="http://localhost:3000/image-1.jpg"
+          body="This wil be the text that will be shown under the newscards find a way to not make them change heights after creating them"
+        />
+
+        <Newsgrid
+          title="News Title"
+          imageUrl="http://localhost:3000/image-1.jpg"
+          body="This wil be the text that will be shown under the newscards find a way to not make them change heights after creating them"
+        />
+
+        <Newsgrid
+          title="News Title"
+          imageUrl="http://localhost:3000/image-3.jpg"
+          body="This wil be the text that will be shown under the newscards find a way to not make them change heights after creating them"
+        />
+
+        <Newsgrid
+          title="News Title"
+          imageUrl="http://localhost:3000/image-1.jpg"
+          body="This wil be the text that will be shown under the newscards find a way to not make them change heights after creating them"
+        />
+      </div>
+
+      <h2 class="font-regular text-5xl ml-60">ENTERTAINMENT</h2>
+      <div className="gridholder">
+        <Newsgrid
+          title="News Title"
+          imageUrl="http://localhost:3000/image-1.jpg"
+          body="This wil be the text that will be shown under the newscards find a way to not make them change heights after creating them"
+        />
+
+        <Newsgrid
+          title="News Title"
+          imageUrl="http://localhost:3000/image-1.jpg"
+          body="This wil be the text that will be shown under the newscards find a way to not make them change heights after creating them"
+        />
+
+        <Newsgrid
+          title="News Title"
+          imageUrl="http://localhost:3000/image-3.jpg"
+          body="This wil be the text that will be shown under the newscards find a way to not make them change heights after creating them"
+        />
+
+        <Newsgrid
+          title="News Title"
+          imageUrl="http://localhost:3000/image-1.jpg"
+          body="This wil be the text that will be shown under the newscards find a way to not make them change heights after creating them"
+        />
+      </div>
+      <div className="vidcar">
+        <Vidcar />
       </div>
     </>
   );

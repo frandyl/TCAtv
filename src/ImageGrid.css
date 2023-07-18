@@ -9,6 +9,8 @@
   width: 75%;
   z-index: -1;
   display: grid;
+  transition: 0.3s;
+  animation: ease-in;
   grid-template-columns: repeat(var(--num-cols), 1fr);
   grid-auto-rows: var(--row-height);
   gap: var(--gap);
@@ -30,11 +32,12 @@
 .grid-container img {
   position: relative;
 }
-.grid-container img::before {
+.grid-container img::after {
   bottom: 0;
   left: 0;
   width: 100%;
   height: 100px;
+
   background-image: linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0),
