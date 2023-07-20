@@ -1,7 +1,7 @@
 {
-  "name": "tcatv",
+  "name": "tcatvgh",
   "version": "0.1.0",
-  "homepage": "https://frandyl.github.io/tcatv",
+  "homepage": "https://frandyl.github.io/tcatvgh",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
