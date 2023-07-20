@@ -56,7 +56,7 @@ const dotStyle = {
 
 const activeDotStyle = {
   ...dotStyle,
-  backgroundColor: "#00ff2a",
+  backgroundColor: " #f50000",
   transform: "translate(0, -300%)",
 };
 
@@ -124,11 +124,11 @@ const ImageSlider = ({ slides }) => {
           }}
         ></div>
         <h1
-          class="font-regular text-5xl "
+          class="font-bold text-5xl "
           style={{
             position: "absolute",
-            bottom: "20px",
-            left: "20px",
+            bottom: "50px",
+            left: "50px",
             color: slides[currentIndex].textColor,
             zIndex: 2,
             opacity: 1,

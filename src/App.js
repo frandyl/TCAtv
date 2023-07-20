@@ -57,22 +57,26 @@ function App() {
     <>
       <div className="App" style={{ display: "flex" }}>
         <button className="diffbuton">
-          <img src={tca} width={50} height={45} />
+          <img src={tca} width={40} height={4} />
         </button>
         <div className="bcontainer">
-          <button className="buttonstyle">News</button>
-          <button className="buttonstyle">Sports</button>
-          <button className="buttonstyle">Entertainment</button>
-          <button className="buttonstyle">Travel</button>
-          <button className="buttonstyle">Culture</button>
+          <div className="button-container" class="font-bold">
+            <button className="buttonstyle underline-animation">NEWS</button>
+            <button className="buttonstyle underline-animation">SPORTS</button>
+            <button className="buttonstyle underline-animation">
+              ENTERTAINMENT
+            </button>
+            <button className="buttonstyle underline-animation">TRAVEL</button>
+            <button className="buttonstyle underline-animation">CULTURE</button>
+          </div>
         </div>
       </div>
       <div style={containerStyles}>
         <ImageSlider slides={slides} parentWidth={2000} />
       </div>
-      <h2 class="font-regular text-5xl ml-60">HEADLINES</h2>
+      <h2 class="font-bold text-4xl ml-auto mr-auto mt-5 w-3/5">HEADLINES</h2>
       <ImageGrid />
-      <h2 class="font-regular text-5xl ml-60">NEWS</h2>
+      <h2 class="font-bold text-4xl ml-auto mr-auto mt-5 w-3/5">NEWS</h2>
       <div className="gridholder">
         <Newsgrid
           title="News Title"
@@ -99,7 +103,7 @@ function App() {
         />
       </div>
 
-      <h2 class="font-regular text-5xl ml-60">SPORTS</h2>
+      <h2 class="font-bold text-4xl ml-auto mr-auto mt-5 w-3/5">SPORTS</h2>
       <div className="gridholder">
         <Newsgrid
           title="News Title"
@@ -126,7 +130,9 @@ function App() {
         />
       </div>
 
-      <h2 class="font-regular text-5xl ml-60">ENTERTAINMENT</h2>
+      <h2 class="font-bold text-4xl ml-auto mr-auto mt-5 w-3/5">
+        ENTERTAINMENT
+      </h2>
       <div className="gridholder">
         <Newsgrid
           title="News Title"
@@ -152,8 +158,20 @@ function App() {
           body="This wil be the text that will be shown under the newscards find a way to not make them change heights after creating them"
         />
       </div>
+      <h2 class="font-bold text-4xl ml-auto mr-auto mt-5 w-3/5">VIDEOS</h2>
       <div className="vidcar">
         <Vidcar />
+      </div>
+      <div class="bg-black h-96 flex items-center justify-between  ">
+        <img src={tca} width={150} class="ml-80" />
+        <h2 class="font-bold text-cyan-50 text-3xl  ml-80">
+          About Us
+          <p class="font-normal text-base text-left border-solid border-2 border-transparent w-2/4 ">
+            TCA tv is a fast rising television channel which delivers a lot of
+            news,sports and Entertainment news headlines and all jibli jabla
+          </p>
+        </h2>
+        <h2 class="font-bold text-cyan-50 text-3xl mr-80 ">Follow Us</h2>
       </div>
     </>
   );

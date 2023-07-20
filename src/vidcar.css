@@ -1,7 +1,7 @@
 .slider-container {
   position: relative;
   width: 100%;
-  height: 315px;
+  height: 320px;
   overflow: hidden;
   display: flex; /* Add flex display */
   justify-content: center; /* Center align the slides */
@@ -13,8 +13,8 @@
 }
 
 .slide {
-  flex: 0 0 calc(30% - 8px);
-  margin-right: 8px;
+  flex: 0 0 calc(40% - 10px);
+  margin-right: 10px;
   transition: opacity 0.3s ease;
   padding: 10px;
   box-sizing: border-box;

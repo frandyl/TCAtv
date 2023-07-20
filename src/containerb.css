@@ -1,15 +1,13 @@
 .bcontainer {
   margin: 0 auto;
   position: center;
-  margin-top: 1%;
-  margin-bottom: 1%;
-  margin-left: 35%;
+  margin-left: 8%;
   align-self: right;
 }
 
 .vidcar {
   background-color: black;
-  width: 75%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
   justify-content: center;

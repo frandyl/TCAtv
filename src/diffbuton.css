@@ -1,13 +1,7 @@
 .diffbuton {
-  background-color: rgba(0, 0, 255, 0);
-  border-color: transparent;
-  font-size: 120%;
-  margin-left: auto;
-  border-radius: 8px;
-}
+  position: relative;
+  margin-left: 10%;
 
-.diffbuton:hover {
-  background-color: black;
-  color: white;
-  transition: all 200ms linear;
+  padding: 2px 16px; /* Set a fixed padding for the buttons */
+  margin-left: calc(0% - 10px);
 }
