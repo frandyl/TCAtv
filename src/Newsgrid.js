@@ -5,14 +5,14 @@ const Newsgrid = ({ title, imageUrl, body }) => {
   return (
     <div className="newsgrid">
       <div className="newsimage">
-        <img src={imageUrl} />
+        <img src={imageUrl} alt={title} />
       </div>
       <div className="newscontent">
         <div className="newstitle">
-          <h3 class="font-bold">{title}</h3>
+          <h3 className="font-bold text-xs md:text-sm">{title}</h3>
         </div>
         <div className="newsbody">
-          <p>{body}</p>
+          <p className="text-xs md:text-sm">{body}</p>
         </div>
       </div>
     </div>

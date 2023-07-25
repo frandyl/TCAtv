@@ -1,10 +1,9 @@
 import "./App.css";
-import "./button.css";
-import "./diffbuton.css";
 import ImageSlider from "./ImageSlider.js";
 import Newsgrid from "./Newsgrid.js";
 import "./containerb.css";
 import "./gridholder.css";
+import Navbar from "./navbar.js";
 import ImageGrid from "./ImageGrid";
 import tca from "./tca.png";
 import Vidcar from "./Vidcar.js";
@@ -12,36 +11,36 @@ import Vidcar from "./Vidcar.js";
 function App() {
   const slides = [
     {
-      url: "http://localhost:3000/image-1.jpg",
+      url: "https://tcatvgh-5b603.web.app/image-1.jpg",
       title: "beach",
       textColor: "red",
     },
     {
-      url: "http://localhost:3000/image-2.jpg",
+      url: "https://tcatvgh-5b603.web.app/image-2.jpg",
       title: "This Is the news Headlines of the day",
       textColor: "red",
     },
     {
-      url: "http://localhost:3000/image-3.jpg",
+      url: "https://tcatvgh-5b603.web.app/image-3.jpg",
       title: "This Is the news Headlines of the day",
       textColor: "red",
     },
     {
-      url: "http://localhost:3000/image-4.jpg",
+      url: "https://tcatvgh-5b603.web.app/image-4.jpg",
       title: "This Is the news Headlines of the day",
       textColor: "red",
     },
     {
-      url: "http://localhost:3000/image-5.jpg",
+      url: "https://tcatvgh-5b603.web.app/image-5.jpg",
       title: "This Is the news Headlines of the day",
       textColor: "red",
     },
     {
-      url: "http://localhost:3000/image-6.jpg",
+      url: "https://tcatvgh-5b603.web.app/image-6.jpg",
       title: "This Is the news Headlines of the day",
     },
     {
-      url: "http://localhost:3000/image-7.jpg",
+      url: "https://tcatvgh-5b603.web.app/image-7.jpg",
       title: "This Is the news Headlines of the day",
     },
   ];
@@ -55,22 +54,8 @@ function App() {
 
   return (
     <>
-      <div className="App" style={{ display: "flex" }}>
-        <button className="diffbuton">
-          <img src={tca} width={40} height={4} />
-        </button>
-        <div className="bcontainer">
-          <div className="button-container" class="font-bold">
-            <button className="buttonstyle underline-animation">NEWS</button>
-            <button className="buttonstyle underline-animation">SPORTS</button>
-            <button className="buttonstyle underline-animation">
-              ENTERTAINMENT
-            </button>
-            <button className="buttonstyle underline-animation">TRAVEL</button>
-            <button className="buttonstyle underline-animation">CULTURE</button>
-          </div>
-        </div>
-      </div>
+      <div className="App"></div>
+      <Navbar />
       <div style={containerStyles}>
         <ImageSlider slides={slides} parentWidth={2000} />
       </div>
@@ -80,25 +65,25 @@ function App() {
       <div className="gridholder">
         <Newsgrid
           title="News Title"
-          imageUrl="http://localhost:3000/image-1.jpg"
+          imageUrl="https://tcatvgh-5b603.web.app/image-1.jpg"
           body="This wil be the text that will be shown under the newscards find a way to not make them change heights after creating them"
         />
 
         <Newsgrid
           title="News Title"
-          imageUrl="http://localhost:3000/image-1.jpg"
+          imageUrl="https://tcatvgh-5b603.web.app/image-1.jpg"
           body="This wil be the text that will be shown under the newscards find a way to not make them change heights after creating them"
         />
 
         <Newsgrid
           title="News Title"
-          imageUrl="http://localhost:3000/image-3.jpg"
+          imageUrl="https://tcatvgh-5b603.web.app/image-3.jpg"
           body="This wil be the text that will be shown under the newscards find a way to not make them change heights after creating them"
         />
 
         <Newsgrid
           title="News Title"
-          imageUrl="http://localhost:3000/image-1.jpg"
+          imageUrl="https://tcatvgh-5b603.web.app/image-1.jpg"
           body="This wil be the text that will be shown under the newscards find a way to not make them change heights after creating them"
         />
       </div>
@@ -107,25 +92,25 @@ function App() {
       <div className="gridholder">
         <Newsgrid
           title="News Title"
-          imageUrl="http://localhost:3000/image-1.jpg"
+          imageUrl="https://tcatvgh-5b603.web.app/image-1.jpg"
           body="This wil be the text that will be shown under the newscards find a way to not make them change heights after creating them"
         />
 
         <Newsgrid
           title="News Title"
-          imageUrl="http://localhost:3000/image-1.jpg"
+          imageUrl="https://tcatvgh-5b603.web.app/image-1.jpg"
           body="This wil be the text that will be shown under the newscards find a way to not make them change heights after creating them"
         />
 
         <Newsgrid
           title="News Title"
-          imageUrl="http://localhost:3000/image-3.jpg"
+          imageUrl="https://tcatvgh-5b603.web.app/image-3.jpg"
           body="This wil be the text that will be shown under the newscards find a way to not make them change heights after creating them"
         />
 
         <Newsgrid
           title="News Title"
-          imageUrl="http://localhost:3000/image-1.jpg"
+          imageUrl="https://tcatvgh-5b603.web.app/image-1.jpg"
           body="This wil be the text that will be shown under the newscards find a way to not make them change heights after creating them"
         />
       </div>
@@ -136,25 +121,25 @@ function App() {
       <div className="gridholder">
         <Newsgrid
           title="News Title"
-          imageUrl="http://localhost:3000/image-1.jpg"
+          imageUrl="https://tcatvgh-5b603.web.app/image-1.jpg"
           body="This wil be the text that will be shown under the newscards find a way to not make them change heights after creating them"
         />
 
         <Newsgrid
           title="News Title"
-          imageUrl="http://localhost:3000/image-1.jpg"
+          imageUrl="https://tcatvgh-5b603.web.app/image-1.jpg"
           body="This wil be the text that will be shown under the newscards find a way to not make them change heights after creating them"
         />
 
         <Newsgrid
           title="News Title"
-          imageUrl="http://localhost:3000/image-3.jpg"
+          imageUrl="https://tcatvgh-5b603.web.app/image-3.jpg"
           body="This wil be the text that will be shown under the newscards find a way to not make them change heights after creating them"
         />
 
         <Newsgrid
           title="News Title"
-          imageUrl="http://localhost:3000/image-1.jpg"
+          imageUrl="https://tcatvgh-5b603.web.app/image-1.jpg"
           body="This wil be the text that will be shown under the newscards find a way to not make them change heights after creating them"
         />
       </div>

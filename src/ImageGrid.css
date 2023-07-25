@@ -6,14 +6,22 @@
   margin-right: auto;
   box-sizing: border-box;
   padding: var(--gap);
-  width: 60%;
+  width: 100%; /* Use 100% width for responsiveness */
+  max-width: 80%; /* Set a maximum width for larger screens */
   z-index: -1;
   display: grid;
   overflow: hidden;
   grid-template-columns: repeat(var(--num-cols), 1fr);
   grid-auto-rows: var(--row-height);
   gap: var(--gap);
+
+  /* Add a media query for smaller screens */
+  @media only screen and (max-width: 768px) {
+    --num-cols: 2; /* Show 2 columns on smaller screens */
+    --row-height: 150px; /* Reduce the row height for smaller screens */
+  }
 }
+
 .grid-container > div.grid-item:hover img {
   transform: scale(0.95);
   transition: transform 0.3s ease-in; /* Add transition only to the transform property */
@@ -33,7 +41,12 @@
   position: absolute;
   bottom: 10px; /* Adjust the position as needed */
   left: 10px; /* Adjust the position as needed */
-  background-color: rgba(0, 0, 0, 0); /* Background color for the title */
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.7
+  ); /* Background color for the title (slightly opaque) */
   color: white; /* Text color for the title */
   padding: 5px 10px;
   border-radius: 5px;

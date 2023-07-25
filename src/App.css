@@ -7,11 +7,8 @@
   width: 100%;
 }
 
-.App > button:first-child {
-  margin-left: 20%;
-  width: 10%;
-}
-
-.App > div {
-  margin-right: 5%;
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }

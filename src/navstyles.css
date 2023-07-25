@@ -1,0 +1,85 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(0, 0, 0);
+  padding: 0% 10%;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#navbar li {
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+}
+
+.underline-animation {
+  position: relative;
+  color: rgb(255, 252, 252);
+  padding-bottom: 9px;
+}
+
+.underline-animation::after {
+  content: "";
+  position: absolute;
+  width: calc(100% + 20px); /* Extend the underline width beyond the li */
+  transform: scaleX(0);
+  height: 4px;
+  bottom: 0;
+  left: -10px; /* Offset to center the underline */
+  background-color: #f50000;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+#navbar li a:hover.underline-animation:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+#mobile {
+  display: none;
+  font-size: 20px;
+}
+
+#mobile img {
+  align-items: center;
+}
+
+@media screen and (max-width: 769px) {
+  #navbar {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: fixed;
+    z-index: 110;
+    top: 40px;
+    right: -15px;
+    width: 300px;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.712);
+    padding: 40px 0 0 10px;
+    transition: 0.3s ease-in-out;
+  }
+
+  #navbar.active {
+    right: -300px;
+  }
+
+  #navbar li {
+    margin-bottom: 25px;
+  }
+  #mobile {
+    display: block;
+  }
+
+  #mobile img {
+    cursor: pointer;
+  }
+}
