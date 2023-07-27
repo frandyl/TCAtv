@@ -47,11 +47,30 @@ function App() {
 
   const containerStyles = {
     width: "fit",
+    maxHeight: "fit",
     height: "500px",
     margin: "0 auto",
     position: "center",
   };
 
+  const updateContainerHeight = () => {
+    const screenWidth = window.innerWidth;
+
+    // Adjust the height based on the screen width
+    if (screenWidth <= 768) {
+      containerStyles.height = "200px"; // You can set the desired height for smaller screens
+    } else if (screenWidth <= 1024) {
+      containerStyles.height = "400px"; // You can set the desired height for medium screens
+    } else {
+      containerStyles.height = "500px"; // Default height for larger screens
+    }
+  };
+
+  // Call the function initially to set the height based on the current screen size
+  updateContainerHeight();
+
+  // Add an event listener to update the container height when the window is resized
+  window.addEventListener("resize", updateContainerHeight);
   return (
     <>
       <div className="App"></div>
@@ -147,16 +166,16 @@ function App() {
       <div className="vidcar">
         <Vidcar />
       </div>
-      <div class="bg-black h-96 flex items-center justify-between  ">
-        <img src={tca} width={100} class="ml-60" />
-        <h2 class="font-bold text-cyan-50 text-3xl  ml-80">
+      <div class="bg-black h-96 w-screen flex items-center justify-between ">
+        <img src={tca} class=" w-24 md: ml-5  w-10" />
+        <h2 class="font-bold text-cyan-50 text-xl   md:text-xl ml-5">
           About Us
-          <p class="font-normal text-base text-left border-solid border-2 border-transparent w-2/4 ">
+          <p class="font-normal text-sm text-left border-solid border-2 border-transparent w-2/4 md:m-5 ">
             TCA tv is a fast rising television channel which delivers a lot of
             news,sports and Entertainment news headlines and all jibli
           </p>
         </h2>
-        <h2 class="font-bold text-cyan-50 text-3xl mr-60 ">Follow Us</h2>
+        <h2 class="font-bold text-cyan-50 text-xl  md: mr-5">Follow Us</h2>
       </div>
     </>
   );

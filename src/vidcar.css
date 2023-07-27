@@ -1,3 +1,18 @@
+.vidcar {
+  background-color: black;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  height: 400px;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Adjust the alignment as needed */
+  position: relative;
+}
+
 .slider-container {
   position: relative;
   width: 100%;
@@ -47,4 +62,35 @@
 .youtube-player {
   width: 100%;
   height: 100%;
+}
+
+@media (max-width: 768px) {
+  .slider-container {
+    height: 200px; /* Reduce the height for smaller screens */
+    width: 100%;
+  }
+
+  .slide {
+    flex: 0 0 calc(50% - 10px); /* Adjust the slide width for smaller screens */
+    margin-right: 5px; /* Decrease the margin between slides */
+  }
+
+  .previous-button,
+  .next-button {
+    font-size: 14px; /* Reduce the font size of buttons for smaller screens */
+  }
+
+  .youtube-player {
+    width: 100%;
+    height: 120%;
+    content: cover;
+  }
+}
+
+@media (max-width: 768px) {
+  .vidcar {
+    width: 100%; /* Adjust the width for smaller screens */
+    height: 300px;
+    margin-bottom: 5%;
+  }
 }

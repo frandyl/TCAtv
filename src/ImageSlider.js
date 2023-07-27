@@ -103,10 +103,10 @@ const ImageSlider = ({ slides }) => {
     <div style={sliderStyles}>
       <div>
         <div onClick={goToPrevious} style={leftArrowStyles}>
-          <img src={leftarrow} />
+          <img class=" md:w-24 relative -left-10" src={leftarrow} />
         </div>
         <div onClick={goToNext} style={rightArrowStyles}>
-          <img src={rightarrow} />
+          <img class=" md:w-24 relative -right-10" src={rightarrow} />
         </div>
       </div>
 
@@ -124,10 +124,9 @@ const ImageSlider = ({ slides }) => {
           }}
         ></div>
         <h1
-          class="font-bold text-5xl "
           style={{
             position: "absolute",
-            bottom: "50px",
+            bottom: "65px",
             left: "50px",
             color: slides[currentIndex].textColor,
             zIndex: 2,
@@ -135,7 +134,9 @@ const ImageSlider = ({ slides }) => {
             transition: "opacity 0.5s ease in",
           }}
         >
-          {slides[currentIndex].title}
+          <div class="font-bold text-xl relative -left-8 -bottom-8 md:text-5xl">
+            {slides[currentIndex].title}
+          </div>
         </h1>
       </div>
       <div style={dotsContainerStyles}>

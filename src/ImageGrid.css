@@ -7,7 +7,7 @@
   box-sizing: border-box;
   padding: var(--gap);
   width: 100%; /* Use 100% width for responsiveness */
-  max-width: 80%; /* Set a maximum width for larger screens */
+  max-width: 60%; /* Set a maximum width for larger screens */
   z-index: -1;
   display: grid;
   overflow: hidden;
@@ -19,6 +19,7 @@
   @media only screen and (max-width: 768px) {
     --num-cols: 2; /* Show 2 columns on smaller screens */
     --row-height: 150px; /* Reduce the row height for smaller screens */
+    max-width: fit-content;
   }
 }
 

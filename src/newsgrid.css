@@ -13,14 +13,14 @@
   max-width: 23%;
   max-height: 15%;
   overflow: hidden;
-  box-shadow: 0px 0px 15px -5px;
+  border: rgb(0, 0, 0);
+  border: 1px solid;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   animation: ease-in;
 }
 
 .newsgrid:hover {
   transform: scale(0.9);
-  box-shadow: 0px 0px 15px -5px;
 }
 
 .newsimage img {
@@ -49,13 +49,13 @@ p {
 @media only screen and (max-width: 768px) {
   .gridholder {
     flex-wrap: wrap; /* Allow the cards to wrap on smaller screens */
-    justify-content: center; /* Center the cards on smaller screens */
-    width: 100%; /* Make the gridholder take up the whole width of the screen */
+    justify-content: fit-content; /* Center the cards on smaller screens */
+    max-width: fit-content; /* Make the gridholder take up the whole width of the screen */
   }
 
   .newsgrid {
     max-width: 100%; /* Increase the card width for phones */
-    margin-bottom: 3%; /* Increase the margin between the cards on smaller screens */
+    margin-bottom: 5%; /* Increase the margin between the cards on smaller screens */
   }
 
   .newscontent {
