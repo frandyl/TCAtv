@@ -3,7 +3,12 @@ nav {
   align-items: center;
   justify-content: space-between;
   background: rgb(0, 0, 0);
-  padding: 0% 10%;
+  position: fixed; /* Make the navigation stick to the top */
+  top: 0; /* Align the navigation to the top of the screen */
+  left: 0; /* Align the navigation to the left of the screen */
+  width: 100%; /* Make the navigation span the full width of the screen */
+  z-index: 200;
+  padding: 0% 20%;
 }
 
 #navbar {

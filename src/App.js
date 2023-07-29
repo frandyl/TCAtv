@@ -46,8 +46,7 @@ function App() {
   ];
 
   const containerStyles = {
-    width: "fit",
-    maxHeight: "fit",
+    width: "100%",
     height: "500px",
     margin: "0 auto",
     position: "center",
@@ -58,7 +57,7 @@ function App() {
 
     // Adjust the height based on the screen width
     if (screenWidth <= 768) {
-      containerStyles.height = "200px"; // You can set the desired height for smaller screens
+      containerStyles.height = "300px"; // You can set the desired height for smaller screens
     } else if (screenWidth <= 1024) {
       containerStyles.height = "400px"; // You can set the desired height for medium screens
     } else {
@@ -75,12 +74,18 @@ function App() {
     <>
       <div className="App"></div>
       <Navbar />
-      <div style={containerStyles}>
-        <ImageSlider slides={slides} parentWidth={2000} />
+      <div style={{ width: "100%", overflowX: "hidden" }}>
+        <div style={containerStyles}>
+          <ImageSlider slides={slides} parentwidth={2000} />
+        </div>
       </div>
-      <h2 class="font-bold text-4xl ml-auto mr-auto mt-5 w-3/5">HEADLINES</h2>
+      <h2 class="font-bold text-2xl ml-auto mr-auto mt-5 w-3/5 md:text-4xl md:auto">
+        HEADLINES
+      </h2>
       <ImageGrid />
-      <h2 class="font-bold text-4xl ml-auto mr-auto mt-5 w-3/5">NEWS</h2>
+      <h2 class="font-bold text-2xl ml-auto mr-auto mt-5 w-3/5 md:text-4xl md:auto">
+        NEWS
+      </h2>
       <div className="gridholder">
         <Newsgrid
           title="News Title"
@@ -107,7 +112,9 @@ function App() {
         />
       </div>
 
-      <h2 class="font-bold text-4xl ml-auto mr-auto mt-5 w-3/5">SPORTS</h2>
+      <h2 class="font-bold text-2xl ml-auto mr-auto mt-5 w-3/5 md:text-4xl md:auto">
+        SPORTS
+      </h2>
       <div className="gridholder">
         <Newsgrid
           title="News Title"
@@ -134,7 +141,7 @@ function App() {
         />
       </div>
 
-      <h2 class="font-bold text-4xl ml-auto mr-auto mt-5 w-3/5">
+      <h2 class="font-bold text-2xl ml-auto mr-auto mt-5 w-3/5 md:text-4xl md:auto">
         ENTERTAINMENT
       </h2>
       <div className="gridholder">
@@ -162,12 +169,14 @@ function App() {
           body="This wil be the text that will be shown under the newscards find a way to not make them change heights after creating them"
         />
       </div>
-      <h2 class="font-bold text-4xl ml-auto mr-auto mt-5 w-3/5">VIDEOS</h2>
+      <h2 class="font-bold text-2xl ml-auto mr-auto mt-5 w-3/5 md:text-4xl md:auto">
+        VIDEOS
+      </h2>
       <div className="vidcar">
         <Vidcar />
       </div>
-      <div class="bg-black h-96 w-screen flex items-center justify-between ">
-        <img src={tca} class=" w-24 md: ml-5  w-10" />
+      <div class="bg-black h-96 w-full flex items-center justify-between ">
+        <img src={tca} class=" w-24 md: ml-10  w-10 " />
         <h2 class="font-bold text-cyan-50 text-xl   md:text-xl ml-5">
           About Us
           <p class="font-normal text-sm text-left border-solid border-2 border-transparent w-2/4 md:m-5 ">
@@ -175,7 +184,7 @@ function App() {
             news,sports and Entertainment news headlines and all jibli
           </p>
         </h2>
-        <h2 class="font-bold text-cyan-50 text-xl  md: mr-5">Follow Us</h2>
+        <h2 class="font-bold text-cyan-50 text-xl  md: mr-2/4 ">Follow Us</h2>
       </div>
     </>
   );

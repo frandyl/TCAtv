@@ -23,7 +23,7 @@ class Navbar extends Component {
           </a>
 
           <div>
-            <ul id="navbar" className={clicked ? "#navbar active" : "#navbar"}>
+            <ul id="navbar" className={clicked ? "" : "active"}>
               <li class="text-3xs font-bold text-white">
                 <a href="index.html" class="underline-animation">
                   NEWS
@@ -54,8 +54,8 @@ class Navbar extends Component {
           <div id="mobile">
             <img
               id="bar"
-              className={this.state.clicked ? "menu" : "cancel"}
-              src={this.state.clicked ? menu : cancel}
+              className={this.state.clicked ? "cancel" : "menu"}
+              src={this.state.clicked ? cancel : menu}
               width={20}
               onClick={this.handleClick}
             />
