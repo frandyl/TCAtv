@@ -18,11 +18,11 @@ function App() {
     {
       url: "https://www.myjoyonline.com/wp-content/uploads/2024/12/WhatsApp-Image-2024-12-09-at-21.25.18-763x424.jpeg" ,
       title: "The great elephant has been slaughtered mercilessly – Asiedu Nketia",
-      textColor: "red",
+      textColor: "black",
     },
     {
-      url: "https://tcatvgh-5b603.web.app/image-3.jpg",
-      title: "This Is the news Headlines of the day",
+      url: "https://www.myjoyonline.com/wp-content/uploads/2024/08/Kwame-A-Plus-636x424.jpg",
+      title: "I am not Fennec Okyere; I sleep with my gun – Kwame A-Plus",
       textColor: "red",
     },
     {
