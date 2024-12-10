@@ -11,13 +11,13 @@ import Vidcar from "./Vidcar.js";
 function App() {
   const slides = [
     {
-      url: "https://tcatvgh-5b603.web.app/image-1.jpg",
-      title: "beach",
-      textColor: "red",
+      url: "https://www.myjoyonline.com/wp-content/uploads/2024/12/Akufo-Addo_national_advice_polls_eve-602x424.jpg",
+      title: "Akufo-Addo’s governance was darkest period in Ghana’s history – President-elect Mahama",
+      textColor: "white",
     },
     {
-      url: "https://tcatvgh-5b603.web.app/image-2.jpg",
-      title: "This Is the news Headlines of the day",
+      url: "https://www.myjoyonline.com/wp-content/uploads/2024/12/WhatsApp-Image-2024-12-09-at-21.25.18-763x424.jpeg" ,
+      title: "The great elephant has been slaughtered mercilessly – Asiedu Nketia",
       textColor: "red",
     },
     {
