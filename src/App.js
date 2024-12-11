@@ -124,10 +124,11 @@ function App() {
         />
 
         <Newsgrid
-          title="News Title"
-          imageUrl="https://tcatvgh-5b603.web.app/image-1.jpg"
-          body="This wil be the text that will be shown under the newscards find a way to not make them change heights after creating them"
-        />  <Newsgrid
+          title="Paris Saint-Germain 'can still be out' of UCL, Luis Enrique says"
+          imageUrl="https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2024%2F1211%2Fr1426522_1296x518_5%2D2.jpg&w=944&h=377&scale=crop&cquality=80&location=origin&format=jpg"
+          body="Paris Saint-Germain boss Luis Enrique praised his side after their 3-0 win at RB Salzburg in the Champions League on Tuesday, but said they must improve if they want to stay in the competition"
+        /> 
+         <Newsgrid
         title="Nigerian basketball coach"
         imageUrl="https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2024%2F1210%2Fr1426069_1296x729_16%2D9.jpg&w=570&format=jpg"
         body="After finishing third at the last Basketball Africa League tournament in 2024, Nigeria's Rivers Hoopers want to go at least one better and reach the Final of next year's tournament... perhaps even win it."
