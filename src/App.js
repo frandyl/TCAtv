@@ -118,9 +118,9 @@ function App() {
       <div className="gridholder">
     
         <Newsgrid
-          title="News Title"
-          imageUrl="https://tcatvgh-5b603.web.app/image-3.jpg"
-          body="This wil be the text that will be shown under the newscards find a way to not make them change heights after creating them"
+          title="Real Madrid's stars stun at Gewiss Stadium"
+          imageUrl="https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2024%2F1211%2Fr1426519_1296x518_5%2D2.jpg&w=944&h=377&scale=crop&cquality=80&location=origin&format=jpg"
+          body=" Tuesday's 3-2 win over Atalanta showed that Carlo Ancelotti is starting to find a balance between Real Madrid's star quality and grit."
         />
 
         <Newsgrid
