@@ -90,27 +90,32 @@ function App() {
       </h2>
       <div className="gridholder">
         <Newsgrid
-          title="News Title"
-          imageUrl="https://tcatvgh-5b603.web.app/image-1.jpg"
-          body="This wil be the text that will be shown under the newscards find a way to not make them change heights after creating them"
+          title="Jean Mensa must respect herself and leave EC – Joyce Bawah Mogtari"
+          imageUrl="https://www.myjoyonline.com/wp-content/uploads/2024/12/Screenshot-2024-12-08-at-5.04.53%E2%80%AFpm-746x424.png"
+          body="Joyce Bawah Mogtari, the special aide to President-Elect John Dramani Mahama, says she expects the chairperson of the Electoral Commission, Jean Mensa, to resign.
+          Madam Mogtari says the current Commission, which is heavily partisan, needs a complete reset to restore integrity and credibility."
         />
 
         <Newsgrid
-          title="News Title"
-          imageUrl="https://tcatvgh-5b603.web.app/image-1.jpg"
-          body="This wil be the text that will be shown under the newscards find a way to not make them change heights after creating them"
+          title="Zambia’s ex-President Lungu barred from seeking re-election"
+          imageUrl="https://www.myjoyonline.com/wp-content/uploads/2021/01/President-Edgar-Lungu-729x424.jpg"
+          body="Zambia's top court has barred former President Edgar Lungu from standing for re-election in 2026.
+          The Constitutional Court ruled that the 68-year-old politician had already served the maximum two terms allowed by law.
+          Lungu was first elected president in January 2015 to serve the remaining 20 months of his predecessor's term."
         />
 
         <Newsgrid
-          title="News Title"
-          imageUrl="https://tcatvgh-5b603.web.app/image-3.jpg"
-          body="This wil be the text that will be shown under the newscards find a way to not make them change heights after creating them"
+          title="ECL’s F5 training shows industries how to go Next-Gen"
+          imageUrl="https://www.myjoyonline.com/wp-content/uploads/2024/12/WhatsApp-Image-2024-12-10-at-15.51.36-908x424.jpeg"
+          body="Enterprise Computing Ltd. (ECL), a leading provider of IT solutions and consultancy services, recently held an exclusive workshop on F5 products, tailored for stakeholders across various industries.
+          Themed Unlocking Next-Gen Web Application Delivery with F5, the training session offered participants an in-depth understanding of how F5 solutions are reshaping web application delivery, security, and performance."
         />
 
         <Newsgrid
-          title="News Title"
-          imageUrl="https://tcatvgh-5b603.web.app/image-1.jpg"
-          body="This wil be the text that will be shown under the newscards find a way to not make them change heights after creating them"
+          title="Police declare 3 persons wanted for Tepa warehouse, radio station break-in"
+          imageUrl="https://www.myjoyonline.com/wp-content/uploads/2024/12/suspects-614x424.jpg"
+          body="The Ghana Police Service has declared three individuals wanted in connection with a break-in at a private warehouse and a radio station in Tepa, Ashanti Region.
+          The suspects identified are Akakpo, the Assembly Member for Akwasiase; George, the Assembly Member for Maabang; and a third individual identified as Muteed."
         />
       </div>
 
