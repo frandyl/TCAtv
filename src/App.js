@@ -135,9 +135,9 @@ function App() {
       />
 
       <Newsgrid
-        title="News Title"
-        imageUrl="https://tcatvgh-5b603.web.app/image-1.jpg"
-        body="This wil be the text that will be shown under the newscards find a way to not make them change heights after creating them"
+        title="Was it a penalty – and what now for Darwin Nunez?"
+        imageUrl="https://static01.nyt.com/athletic/uploads/wp/2024/12/10141904/GettyImages-2188648205-1024x683.jpg?width=770&quality=70&auto=webp"
+        body="Liverpool are within touching distance of the Champions League last 16.A sixth straight win in the competition this season, secured through Mohamed Salah’s penalty, controversially awarded after a VAR check for a foul on Luis Diaz, tightened Arne Slot’s grip on first place in the league phase."
       />
 
       </div>
