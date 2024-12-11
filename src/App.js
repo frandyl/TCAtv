@@ -155,21 +155,21 @@ function App() {
         />
 
         <Newsgrid
-          title="Lawyer cites 300 potential cases against Diddye"
+          title="Lawyer cites 300 potential cases against Diddy"
           imageUrl="https://ichef.bbci.co.uk/news/1024/cpsprodpb/3a96/live/24042680-b652-11ef-b91c-592d64941fec.jpg.webp"
           body="A lawyer representing several alleged victims of Sean Diddy Combs says the potential number of civil legal cases against the musician is probably in the 300 range. Tony Buzbee told the BBC his team had received about 3,000 calls since he held a news conference calling for clients in October."
         />
 
         <Newsgrid
-          title="News Title"
-          imageUrl="https://tcatvgh-5b603.web.app/image-3.jpg"
-          body="This wil be the text that will be shown under the newscards find a way to not make them change heights after creating them"
+          title="28 Years Later trailer has fans guessing over Cillian Murphy's fate"
+          imageUrl="https://ichef.bbci.co.uk/news/1024/cpsprodpb/edc4/live/66df9fc0-b6fc-11ef-a70a-05fc3b931447.jpg.webp"
+          body="It's been quite the wait, but the highly-anticipated follow-up to horror films 28 Days Later (2002) and 28 Weeks Later (2007) is out next summer, with fans getting their first taste of what's in store, from the trailer for 28 Years Later.Many were quick to spot what appeared to be a zombie incarnation of Cillian Murphy's bike courier Jim, from 28 Days Later, who survived an apocalypse against very steep odds."
         />
 
         <Newsgrid
-          title="News Title"
-          imageUrl="https://tcatvgh-5b603.web.app/image-1.jpg"
-          body="This wil be the text that will be shown under the newscards find a way to not make them change heights after creating them"
+          title="Regina Daniels celebrates as she bags Bachelor’s degree in Psychology"
+          imageUrl="https://www.graphic.com.gh/images/2024/dec/10/Regina.jpg"
+          body="Popular Nollywood actress Regina Daniels has earned a bachelor’s degree in Psychology from Universidad Azteca, Mexico.The actress shared the news on Monday via her Instagram account, posting a video that captured the memorable moment she was conferred with the degree."
         />
       </div>
       <h2 class="font-bold text-2xl ml-auto mr-auto mt-5 w-3/5 md:text-4xl md:auto">
