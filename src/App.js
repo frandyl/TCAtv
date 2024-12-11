@@ -142,9 +142,9 @@ function App() {
       />
 
       <Newsgrid
-        title="News Title"
-        imageUrl="https://tcatvgh-5b603.web.app/image-1.jpg"
-        body="This wil be the text that will be shown under the newscards find a way to not make them change heights after creating them"
+        title="Was it a penalty – and what now for Darwin Nunez?"
+        imageUrl="https://static01.nyt.com/athletic/uploads/wp/2024/12/10141904/GettyImages-2188648205-1024x683.jpg?width=770&quality=70&auto=webp"
+        body="Liverpool are within touching distance of the Champions League last 16.A sixth straight win in the competition this season, secured through Mohamed Salah’s penalty, controversially awarded after a VAR check for a foul on Luis Diaz, tightened Arne Slot’s grip on first place in the league phase."
       />
 
       </div>
@@ -154,15 +154,15 @@ function App() {
       </h2>
       <div className="gridholder">
         <Newsgrid
-          title="News Title"
-          imageUrl="https://tcatvgh-5b603.web.app/image-1.jpg"
-          body="This wil be the text that will be shown under the newscards find a way to not make them change heights after creating them"
+          title="Beyoncé and Jay-Z Make Surprise Appearance at ‘Mufasa’ Premiere Alongside Daughter Blue Ivy"
+          imageUrl="https://www.hollywoodreporter.com/wp-content/uploads/2024/12/GettyImages-2188545093.jpg?crop=0px%2C129px%2C5070px%2C2837px&resize=1440%2C810"
+          body="The family walked 'The Lion King' carpet in Hollywood together on Monday, just a day after Jay-Z was accused of raping a 13-year-old girl in a lawsuit, which he called a blackmail attempt"
         />
 
         <Newsgrid
-          title="News Title"
-          imageUrl="https://tcatvgh-5b603.web.app/image-1.jpg"
-          body="This wil be the text that will be shown under the newscards find a way to not make them change heights after creating them"
+          title="Lawyer cites 300 potential cases against Diddye"
+          imageUrl="https://ichef.bbci.co.uk/news/1024/cpsprodpb/3a96/live/24042680-b652-11ef-b91c-592d64941fec.jpg.webp"
+          body="A lawyer representing several alleged victims of Sean Diddy Combs says the potential number of civil legal cases against the musician is probably in the 300 range. Tony Buzbee told the BBC his team had received about 3,000 calls since he held a news conference calling for clients in October."
         />
 
         <Newsgrid
