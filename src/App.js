@@ -18,30 +18,32 @@ function App() {
     {
       url: "https://www.myjoyonline.com/wp-content/uploads/2024/12/WhatsApp-Image-2024-12-09-at-21.25.18-763x424.jpeg" ,
       title: "The great elephant has been slaughtered mercilessly – Asiedu Nketia",
-      textColor: "black",
+      textColor: "white",
     },
     {
       url: "https://www.myjoyonline.com/wp-content/uploads/2024/08/Kwame-A-Plus-636x424.jpg",
       title: "I am not Fennec Okyere; I sleep with my gun – Kwame A-Plus",
-      textColor: "red",
+      textColor: "white",
     },
     {
-      url: "https://tcatvgh-5b603.web.app/image-4.jpg",
-      title: "This Is the news Headlines of the day",
-      textColor: "red",
+      url: "https://www.myjoyonline.com/wp-content/uploads/2021/09/Owusu-Bempah.jpeg",
+      title: "Rev Owusu Bempah re-arrested as police prepare to press fresh charges",
+      textColor: "white",
     },
     {
-      url: "https://tcatvgh-5b603.web.app/image-5.jpg",
-      title: "This Is the news Headlines of the day",
-      textColor: "red",
+      url: "https://www.myjoyonline.com/wp-content/uploads/2024/12/John-Mahama-victory-speech2-636x424.jpg",
+      title: "‘Victory for democracy’ – U.S. vows closer partnership with Ghana’s President-elect Mahama",
+      textColor: "white",
     },
     {
-      url: "https://tcatvgh-5b603.web.app/image-6.jpg",
-      title: "This Is the news Headlines of the day",
+      url: "https://www.myjoyonline.com/wp-content/uploads/2024/08/akiyana-754x424.jpg",
+      title: "I am still single because the cheating and stupidity from guys are too much – Akiyana",
+      textColor: "white"
     },
     {
-      url: "https://tcatvgh-5b603.web.app/image-7.jpg",
-      title: "This Is the news Headlines of the day",
+      url: "https://www.myjoyonline.com/wp-content/uploads/2024/12/93AAF895-119A-45D0-9B52-566206BB0840-636x424.jpeg",
+      title: "Experience authentic Ghana: Your festive domestic adventure",
+      textColor: "white"
     },
   ];
 
@@ -118,25 +120,26 @@ function App() {
       <div className="gridholder">
     
         <Newsgrid
-          title="News Title"
-          imageUrl="https://tcatvgh-5b603.web.app/image-3.jpg"
-          body="This wil be the text that will be shown under the newscards find a way to not make them change heights after creating them"
+          title="Real Madrid's stars stun at Gewiss Stadium"
+          imageUrl="https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2024%2F1211%2Fr1426519_1296x518_5%2D2.jpg&w=944&h=377&scale=crop&cquality=80&location=origin&format=jpg"
+          body=" Tuesday's 3-2 win over Atalanta showed that Carlo Ancelotti is starting to find a balance between Real Madrid's star quality and grit."
         />
 
         <Newsgrid
-          title="News Title"
-          imageUrl="https://tcatvgh-5b603.web.app/image-1.jpg"
-          body="This wil be the text that will be shown under the newscards find a way to not make them change heights after creating them"
-        />  <Newsgrid
+          title="Paris Saint-Germain 'can still be out' of UCL, Luis Enrique says"
+          imageUrl="https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2024%2F1211%2Fr1426522_1296x518_5%2D2.jpg&w=944&h=377&scale=crop&cquality=80&location=origin&format=jpg"
+          body="Paris Saint-Germain boss Luis Enrique praised his side after their 3-0 win at RB Salzburg in the Champions League on Tuesday, but said they must improve if they want to stay in the competition"
+        /> 
+         <Newsgrid
         title="Nigerian basketball coach"
         imageUrl="https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2024%2F1210%2Fr1426069_1296x729_16%2D9.jpg&w=570&format=jpg"
         body="After finishing third at the last Basketball Africa League tournament in 2024, Nigeria's Rivers Hoopers want to go at least one better and reach the Final of next year's tournament... perhaps even win it."
       />
 
       <Newsgrid
-        title="News Title"
-        imageUrl="https://tcatvgh-5b603.web.app/image-1.jpg"
-        body="This wil be the text that will be shown under the newscards find a way to not make them change heights after creating them"
+        title="Was it a penalty – and what now for Darwin Nunez?"
+        imageUrl="https://static01.nyt.com/athletic/uploads/wp/2024/12/10141904/GettyImages-2188648205-1024x683.jpg?width=770&quality=70&auto=webp"
+        body="Liverpool are within touching distance of the Champions League last 16.A sixth straight win in the competition this season, secured through Mohamed Salah’s penalty, controversially awarded after a VAR check for a foul on Luis Diaz, tightened Arne Slot’s grip on first place in the league phase."
       />
 
       </div>
