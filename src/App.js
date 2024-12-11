@@ -116,18 +116,7 @@ function App() {
         SPORTS
       </h2>
       <div className="gridholder">
-      <Newsgrid
-          title="Nigerian basketball coach"
-          imageUrl="https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2024%2F1210%2Fr1426069_1296x729_16%2D9.jpg&w=570&format=jpg"
-          body="After finishing third at the last Basketball Africa League tournament in 2024, Nigeria's Rivers Hoopers want to go at least one better and reach the Final of next year's tournament... perhaps even win it."
-        />
-
-        <Newsgrid
-          title="News Title"
-          imageUrl="https://tcatvgh-5b603.web.app/image-1.jpg"
-          body="This wil be the text that will be shown under the newscards find a way to not make them change heights after creating them"
-        />
-
+    
         <Newsgrid
           title="News Title"
           imageUrl="https://tcatvgh-5b603.web.app/image-3.jpg"
@@ -138,7 +127,18 @@ function App() {
           title="News Title"
           imageUrl="https://tcatvgh-5b603.web.app/image-1.jpg"
           body="This wil be the text that will be shown under the newscards find a way to not make them change heights after creating them"
-        />
+        />  <Newsgrid
+        title="Nigerian basketball coach"
+        imageUrl="https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2024%2F1210%2Fr1426069_1296x729_16%2D9.jpg&w=570&format=jpg"
+        body="After finishing third at the last Basketball Africa League tournament in 2024, Nigeria's Rivers Hoopers want to go at least one better and reach the Final of next year's tournament... perhaps even win it."
+      />
+
+      <Newsgrid
+        title="News Title"
+        imageUrl="https://tcatvgh-5b603.web.app/image-1.jpg"
+        body="This wil be the text that will be shown under the newscards find a way to not make them change heights after creating them"
+      />
+
       </div>
 
       <h2 class="font-bold text-2xl ml-auto mr-auto mt-5 w-3/5 md:text-4xl md:auto">
