@@ -172,9 +172,9 @@ function App() {
         />
 
         <Newsgrid
-          title="Regina Daniels celebrates as she bags Bachelor’s degree in Psychology"
-          imageUrl="https://www.graphic.com.gh/images/2024/dec/10/Regina.jpg"
-          body="Popular Nollywood actress Regina Daniels has earned a bachelor’s degree in Psychology from Universidad Azteca, Mexico.The actress shared the news on Monday via her Instagram account, posting a video that captured the memorable moment she was conferred with the degree."
+          title="TikTok set to be banned in the US after losing appeal"
+          imageUrl="https://ichef.bbci.co.uk/news/1024/cpsprodpb/d8a2/live/d8cb3550-b3ea-11ef-b4ee-7f3a9069a0a6.jpg.webp"
+          body="TikTok's bid to overturn a law which would see it banned or sold in the US from early 2025 has been rejected.The social media company had hoped a federal appeals court would agree with its argument that the law was unconstitutional because it represented a staggering impact on the free speech of its 170 million US users."
         />
       </div>
       <h2 class="font-bold text-2xl ml-auto mr-auto mt-5 w-3/5 md:text-4xl md:auto">
