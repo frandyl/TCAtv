@@ -3,8 +3,8 @@ import "./ImageGrid.css";
 const ImageGrid = () => {
   const grids = [
     {
-      url: "https://tcatvgh-5b603.web.app/Grid/grid1.jpg",
-      title: "This is the text supposed to appear on the grid",
+      url: "https://3news.com/wp-content/uploads/2024/09/Naana-Jane.jpg",
+      title: "Jane Naana Opoku-Agyemang: 4 times she broke barriers and made history",
       className: "grid-container-col-2 grid-container-row-2 text-5xl",
       color: "white",
     },
