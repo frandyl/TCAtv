@@ -18,30 +18,32 @@ function App() {
     {
       url: "https://www.myjoyonline.com/wp-content/uploads/2024/12/WhatsApp-Image-2024-12-09-at-21.25.18-763x424.jpeg" ,
       title: "The great elephant has been slaughtered mercilessly – Asiedu Nketia",
-      textColor: "black",
+      textColor: "white",
     },
     {
       url: "https://www.myjoyonline.com/wp-content/uploads/2024/08/Kwame-A-Plus-636x424.jpg",
       title: "I am not Fennec Okyere; I sleep with my gun – Kwame A-Plus",
-      textColor: "red",
+      textColor: "white",
     },
     {
-      url: "https://tcatvgh-5b603.web.app/image-4.jpg",
-      title: "This Is the news Headlines of the day",
-      textColor: "red",
+      url: "https://www.myjoyonline.com/wp-content/uploads/2021/09/Owusu-Bempah.jpeg",
+      title: "Rev Owusu Bempah re-arrested as police prepare to press fresh charges",
+      textColor: "white",
     },
     {
-      url: "https://tcatvgh-5b603.web.app/image-5.jpg",
-      title: "This Is the news Headlines of the day",
-      textColor: "red",
+      url: "https://www.myjoyonline.com/wp-content/uploads/2024/12/John-Mahama-victory-speech2-636x424.jpg",
+      title: "‘Victory for democracy’ – U.S. vows closer partnership with Ghana’s President-elect Mahama",
+      textColor: "white",
     },
     {
-      url: "https://tcatvgh-5b603.web.app/image-6.jpg",
-      title: "This Is the news Headlines of the day",
+      url: "https://www.myjoyonline.com/wp-content/uploads/2024/08/akiyana-754x424.jpg",
+      title: "I am still single because the cheating and stupidity from guys are too much – Akiyana",
+      textColor: "white"
     },
     {
-      url: "https://tcatvgh-5b603.web.app/image-7.jpg",
-      title: "This Is the news Headlines of the day",
+      url: "https://www.myjoyonline.com/wp-content/uploads/2024/12/93AAF895-119A-45D0-9B52-566206BB0840-636x424.jpeg",
+      title: "Experience authentic Ghana: Your festive domestic adventure",
+      textColor: "white"
     },
   ];
 
